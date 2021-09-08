@@ -1,0 +1,224 @@
+*{margin: 0px;
+padding: 0px;
+}
+.header{
+    height: 97.5vh;
+    background-image: url(../img/pexels-garvin-st-villier-3972755.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    position: relative;
+    text-align: center;
+    color:white;    
+}
+.topleft{
+    position: absolute;
+    top: 20px;
+    left: 50px;
+}
+.topright{
+    position: fixed;
+    z-index: 100;
+    top: 10px;
+    right: 50px;
+}
+.topright ul{height: 35px;
+    width: auto;
+    margin:0px;
+    padding: 0px 28px;
+    
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    line-height: 20px;
+}
+li{
+    border-right:10px solid white transparent;
+    float: left;
+}
+a{
+    display: block;
+    padding: 7px 28px;
+    text-decoration:none;
+    border-radius: 30px;
+    color: white;
+}
+.topright .navitem:hover{background-color:goldenrod;}
+.topright .navitem{
+    background-color: rgba(104, 65, 65, 0.705);
+    border-radius: 30px;
+    margin: 0px 5px;
+}
+section{
+    height: 680px;
+    background-color: goldenrod ;
+}
+section .item{
+    height: 80%;
+    width: 28%;
+    padding: 5px;
+    margin: 45px 35px;
+    float: left;
+    border-radius: 30px;   
+    background-color: honeydew;
+    box-shadow: 5px black;
+    text-align: center;
+}
+.item #pic{
+    width: 100%;
+    height:40%;
+    border-radius: 30px;
+}
+.item .pic2{
+    width: 49%;
+    height: 38%;
+    border-radius: 20px;
+}
+.section2{
+    height: 680px;  
+    background-color:gold;
+}
+.section2 .whyus-col{
+    height: 80%;
+    width: 40%;
+    background-color:whitesmoke;
+    float: left;
+    margin: 35px 60px;
+    border-radius: 15px;
+    padding: 1px;
+    box-shadow: 0px 5px 10px 0px black;
+}
+.whyus-col .title{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom:10px;
+}
+.whyus-col .vsimg{
+    width: 90%;
+    height: 60%;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+.sectionfind{
+    height: 750px;
+    width: 1520px;
+    display:flex ;
+}
+.sectionfind .finddiv{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    align-items: center;   
+}
+.finddiv #vid{
+    max-height: 100%;
+    max-width: 100%;
+}
+.sectionfind .findphoto{
+    height: 100%;
+    width: 40%;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.findphoto #button{
+    height: 30px;
+    width: 200px;
+    border-radius: 20px;
+    margin-top: 70px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: larger;
+    color: whitesmoke;
+    font-weight: 800;
+    background-color: tomato;
+}
+.findphoto .find{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.about{
+    height: 700px;
+    width: 1520px;
+    margin-top: 20px;
+    background-color: transparent;
+}
+.about .aboutbox{
+    height: 85%;
+    max-width: 80%;
+    border-radius: 30px;
+    border: 1px solid yellow transparent;
+    margin-left: 150px;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 75xpx;
+    color:white;
+    background-image: url(../img/pexels-szymon-shields-6152797.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.footer{
+    height: 500px;
+    width: 100%;
+    background-color:black;
+    font-size: 25px;
+    display:flex;
+    flex-direction: column;
+}
+.footer .bgc{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background-color: #141414;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items:center;
+    color: white;
+}
+.footer .cus{
+    height: 400px;
+    border-radius: 20px;
+    width: 30%;
+    background-color:#333333;
+    align-items: center;
+    display: flex;
+    box-shadow:0px 5px 10px 0px black;
+    flex-direction: column;
+}
+.footer .gtku{
+    height: 400px;
+    width: 30%;
+    box-shadow:0px 5px 10px 0px black;
+    border-radius: 20px;
+    margin-right: 0px;
+    text-align: center;
+    font-size:x-large;
+    background-color: #4b4b4b;
+    box-shadow: black;
+}
+.footer .lhu{
+    height: 400px;
+    box-shadow:0px 5px 10px 0px black;
+    width:30%;
+    border-radius: 20px;
+    text-align: center;
+    font-size: x-large;
+    margin-right: 20px;
+    background-color: #333333;
+    box-shadow: black;
+}
+.b{
+    color: white;
+}
+.footer #back{
+    width: 100%;
+    background-color:#141414;}
