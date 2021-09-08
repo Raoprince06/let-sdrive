@@ -1,10 +1,10 @@
 const liveServer = require("live-server");
 const fs = require("fs");
-const main_file = "asdas.html";
+const main_file = "./test1/asdas.html";
 var params = {
     port: 80,
     host: "0.0.0.0",
-    root: "./", 
+    root: "./test1", 
     open: false,
     file: main_file,
     wait: 1000, 
