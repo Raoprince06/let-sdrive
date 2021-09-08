@@ -8,7 +8,7 @@ var params = {
     open: false,
     file: main_file,
     wait: 1000, 
-    mount: [['/components', './node_modules','./css','./img','./js',"./"]],
+    mount: [['./test1/css','./test1/img']],
     logLevel: 2,
     middleware: [function(req, res, next) { next(); }] 
 };
